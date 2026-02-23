@@ -25,8 +25,8 @@ Make sure the following are installed:
 ## 🔧 Setup Instructions
 
 ### 1️⃣ Clone the repository
- `git clone https://github.com/your-username/your-repo-name.git`
- `cd your-repo-name`
+ `https://github.com/vedantk23/playwrightcodes.git`
+ `cd playwright-assignment`
 
 ---
 
