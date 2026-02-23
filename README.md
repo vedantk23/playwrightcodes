@@ -58,4 +58,6 @@ This will:
 Screenshots are saved automatically in the project root directory.
 
 ---
+## To Run Headless set Headless to True as Currently it's false
+
 
