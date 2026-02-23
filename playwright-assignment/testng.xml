@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="ParallelSuite" parallel="tests" thread-count="3">
+
+    <test name="ChromiumTest">
+        <parameter name="browser" value="chromium" />
+        <classes>
+            <class name="com.testng.WebSiteTesting" />
+        </classes>
+    </test>
+
+    <test name="FirefoxTest">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="com.testng.WebSiteTesting" />
+        </classes>
+    </test>
+
+    <test name="WebkitTest">
+        <parameter name="browser" value="webkit" />
+        <classes>
+            <class name="com.testng.WebSiteTesting" />
+        </classes>
+    </test>
+
+</suite>
