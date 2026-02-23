@@ -43,6 +43,8 @@ OR if Playwright is already configured:
 ### 3️⃣ Run Tests (All Browsers)
 
 Make sure you are inside the project root (where `pom.xml` exists).
+Run
+
 `mvn clean test`
 
 This will:
